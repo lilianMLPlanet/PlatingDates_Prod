@@ -1,0 +1,6 @@
+numpy==1.18.5
+pandas==1.4.3
+geopandas==0.13.2
+pymongo-auth-aws==1.1.0
+pymongo[aws]
+boto3==1.26.76

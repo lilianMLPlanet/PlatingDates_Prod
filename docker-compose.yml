@@ -1,0 +1,10 @@
+services:
+  acreage_estimation:
+    environment:
+      - AWS_PROFILE=algo
+    image: predict_crop_type:latest
+    ports:
+    - 9000:8080
+    volumes:
+    - "C:/Users/Benny/.aws:/root/.aws"
+version: '1.0'
